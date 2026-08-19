@@ -1,5 +1,5 @@
-# CS5228-Project
-A data mining and machine learning project focused on customer churn prediction, covering exploratory data analysis, feature engineering, supervised learning, and synthetic data generation.
+# ChurnForge
+A data mining and machine learning project investigating customer churn prediction, covering exploratory data analysis, feature engineering, supervised learning, and synthetic data generation.
 
 # Overview
 This project investigates the patterns associated with customer churn and evaluates different approaches for predicting whether a customer is likely to leave a service.
@@ -82,8 +82,8 @@ The project then explores synthetic customer-data generation using a Bayesian Ne
 
 
 <p align="center">
-  <img src="Results/Experiments/Model-1.png" alt="Bayesian Network model" width=256> 
-  <img src="Results/GenAI/histogram_comparison.png" alt="Real versus synthetic data distributions" width=650>
+  <img src="Results/Experiments/Model-1.png" alt="Bayesian Network model" width=250> 
+  <img src="Results/GenAI/histogram_comparison.png" alt="Real versus synthetic data distributions" width=635>
 </p>
 
 The generated data is evaluated against the real dataset to investigate whether the synthetic records preserve both statistical characteristics and predictive utility.
@@ -91,8 +91,6 @@ The generated data is evaluated against the real dataset to investigate whether 
 # Summary
 The project progresses from feature engineering and feature-space analysis into supervised churn prediction, followed by synthetic-data generation and evaluation.
 The results demonstrate both the predictive capability of conventional machine-learning models and the potential of probabilistic generative approaches for producing useful synthetic customer data.
-
-
 
 # License
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
